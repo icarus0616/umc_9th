@@ -1,3 +1,7 @@
+# Webhook URL은 환경변수로 관리 (노출 금지)
+webhook:
+  discord:
+    url: ${DISCORD_WEBHOOK_URL:}
 spring:
   application:
     name: "umc9th" # "umc9th"
@@ -22,3 +26,5 @@ spring:
     level:
       org.hibernate.SQL: debug
       org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+
