@@ -57,6 +57,10 @@ public class Member extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private SocialType socialType;
 
+    // 🔹 소셜 로그인 계정의 고유 ID (카카오 id 등)
+    @Column(name = "social_id", length = 50)
+    private String socialId;
+
     @Column(name = "point", nullable = false)
     private Integer point;
 

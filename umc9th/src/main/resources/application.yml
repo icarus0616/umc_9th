@@ -27,4 +27,9 @@ spring:
       org.hibernate.SQL: debug
       org.hibernate.type.descriptor.sql.BasicBinder: trace
 
-
+kakao:
+  client:
+    id: 64c062753e1b328728c3728488d2f4a5 # REST API키 입력
+    secret: 898761ff1dc14b03fbcb83f0c594e9bc #Admin 키 입력
+  redirect:
+    url: http://localhost:8080/login/kakao/callback # 등록한 url 입력
