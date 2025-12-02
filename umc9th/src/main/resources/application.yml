@@ -33,3 +33,7 @@ kakao:
     secret: 898761ff1dc14b03fbcb83f0c594e9bc #Admin 키 입력
   redirect:
     url: http://localhost:8080/login/kakao/callback # 등록한 url 입력
+jwt:
+  secret: eocnddkanfjgrpskwldms_zldlqslek!@#
+  access-token-validity-in-ms: 1800000      # 30분
+  refresh-token-validity-in-ms: 1209600000  # 14일
